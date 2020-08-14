@@ -8,10 +8,12 @@ class Anagram
   
   def match(array)
     word = @word.split("")
-    if array.sort == word.sort
-      puts "yep"
-    else
-      puts "no"
+    array.each do |ana|
+      if ana.sort == word.sort
+        puts "yep"
+      else
+        puts "no"
+      end
     end
     
   #loop through each character via word.split("")
