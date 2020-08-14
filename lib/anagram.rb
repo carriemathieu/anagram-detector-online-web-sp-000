@@ -12,6 +12,7 @@ class Anagram
       puts "yep"
     else
       puts "no"
+    end
     
   #loop through each character via word.split("")
   #if all character matches (array1.sort == word.sort), keep going
