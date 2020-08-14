@@ -9,6 +9,7 @@ class Anagram
   def match(array)
     word = @word.split("")
     array.each do |ana|
+      ana = ana.split
       if ana.sort == word.sort
         puts "yep"
       else
