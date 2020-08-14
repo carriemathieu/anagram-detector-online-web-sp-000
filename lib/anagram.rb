@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(word)
-    word = word.split("")
+    word = @word.split("")
     if array.sort == word.sort
       puts "yep"
     else
