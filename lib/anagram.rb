@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
   
-  def match(word)
+  def match
     word = word.split("")
   #loop through each character via word.split("")
   #if all character matches (array1.sort == word.sort), keep going
