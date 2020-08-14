@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
   
-  def match(word)
+  def match(array)
     word = @word.split("")
     if array.sort == word.sort
       puts "yep"
